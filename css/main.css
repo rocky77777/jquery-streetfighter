@@ -53,3 +53,14 @@ body {
 	left: -200px;
 	float: left;
 }
+
+.inst {
+	position: absolute;
+	margin-top: -400px;
+	margin-left: 460px;
+}
+
+.inst h2 {
+	font-size: 1.5em;
+	font-family: Serif;
+}
