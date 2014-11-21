@@ -31,3 +31,19 @@ function playHadouken () {
 	$('#hadouken-sound')[0].load();
 	$('#hadouken-sound')[0].play();
 }
+
+$(document).keydown(function(event) {
+	if (event.keyCode == 88) {
+		$('.ryu-still').hide();
+		$('.ryu-ready').hide();
+		$('.ryu-cool').show();
+	}
+})
+
+$(document).keyup(function(event) {
+	if (event.keyCode == 88) {
+		$('.ryu-cool').hide();
+		$('.ryu-still').hide();
+		$('.ryu-ready').show();
+	}
+})
