@@ -47,3 +47,4 @@ $(document).keyup(function(event) {
 		$('.ryu-ready').show();
 	}
 })
+
